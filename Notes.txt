@@ -1,0 +1,45 @@
+The order property
+
+<form>
+
+<input> most used
+<label> useful for accessibility
+
+
+cd 		CHANGE DIRECTORY
+
+ls 		WHAT'S INSIDE THE FOLDER
+
+.. 		GO BACK ONE
+
+~ 		RETURN TO START
+
+mkdir 	MAKE A FOLDER
+
+touch	MAKE A FILE
+
+	[touch index.html style.css]
+
+rm		REMOVE A FILE
+
+rmdir	REMOVE FOLDER/DIRECTORY
+
+clear	CLEANS THE VIEW
+
+Syncing local system with global through terminal/Git Bash:
+	[$ git config --global user.name "jonnyblevins"]
+	[$ git config --global user.email blevinsjonny@gmail.com]
+	
+Green U stands for untracked. Steps needed in GitBash
+
+git add *
+
+Green A stands for things that have been added.
+
+git commit -m "added index and style files"
+
+The A goes away and has been described.
+
+git push
+
+Push is another word for upload. Moves the local files and uploads.
